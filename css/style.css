@@ -12,3 +12,58 @@ body {
     color: #fff;
     background: url(../images/bg.png);
 }
+
+.clearfix {
+    clear: both;
+}
+
+#container {
+    width: 330px;
+    min-height: 400px;
+    background: #331;
+    overflow: auto;
+    margin: 60px auto;
+    border: #651 solid 2px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#audio-img{
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    margin-bottom: 15px;
+
+}
+
+.cover {
+    width: 100px;
+    z-index: 1;
+}
+
+#audio-info {
+    text-align: center;
+}
+
+#audio-info .artist {
+    /* text-align: center; */
+    font-weight: bold;
+}
+
+input #volume {
+    width: 95%;
+    -webkit-appearance: none !important;
+    margin-left: 2%;
+    background: #ccc;
+    height: 1px;
+    margin-bottom: 20px;
+}
+
+input #volume::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background: url(../images/knob.png);
+    height: 12px;
+    width: 12px;
+}
+
