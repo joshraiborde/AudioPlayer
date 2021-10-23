@@ -67,3 +67,44 @@ input #volume::-webkit-slider-thumb {
     width: 12px;
 }
 
+#buttons {
+    width: 90%;
+    display: block;
+    margin: 15px auto;
+    margin-left: 23px;
+    overflow: auto;
+}
+
+button#play {
+    width: 70px;
+    height: 70px;
+    background: url(../images/play.png) no-repeat;
+}
+
+button#pause {
+    width: 70px;
+    height: 70px;
+    background: url(../images/pause.png) no-repeat;
+}
+
+button#stop {
+    width: 70px;
+    height: 70px;
+    background: url(../images/stop.png) no-repeat;
+}
+
+button#prev {
+    width: 70px;
+    height: 70px;
+    background: url(../images/prev.png) no-repeat;
+    float: left;
+    margin-top: 15px;
+}
+
+button#next {
+    width: 70px;
+    height: 70px;
+    background: url(../images/next.png) no-repeat;
+    float: right;
+    margin-top: 15px;
+}
