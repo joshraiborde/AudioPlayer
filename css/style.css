@@ -134,3 +134,25 @@ button#next {
     background: url(../images/progress_bg.png) no-repeat;
     float: left;
 }
+
+#progress {
+    background: url(../images/progress.png) no-repeat;
+    height: 10px;
+    display: inline-block;
+}
+
+#duration {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    padding: 4px 8px;
+    background: #000;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#tracker {
+    position: relative;
+    width: 100%;
+}
