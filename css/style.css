@@ -108,3 +108,29 @@ button#next {
     float: right;
     margin-top: 15px;
 }
+
+#playlist{
+    list-style: none;
+    padding: 10px;
+}
+
+#playlist li {
+    cursor: pointer;
+    margin: 5px;
+}
+
+#playlist li.active {
+    font-weight: bold;
+    padding: 3px;
+    background: #543;
+}
+
+#progressbar {
+    width: 80%;
+    margin-left: 2%;
+    margin-bottom: 20px;
+    margin-top: 9px;
+    height: 10px;
+    background: url(../images/progress_bg.png) no-repeat;
+    float: left;
+}
