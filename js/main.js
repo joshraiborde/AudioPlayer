@@ -48,3 +48,12 @@ $('#pause').click(function(){
 	$('#pause').hide();
 	$('#play').show();
 });
+
+// stopbuttton
+$('#stop').click(function(){
+    audio.pause();
+    audio.currentTime = 0;
+	$('#pause').hide();
+	$('#play').show();
+    $('#duration').fadeOut(400);
+});
