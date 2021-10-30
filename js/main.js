@@ -41,3 +41,10 @@ $('#play').click(function(){
 	$('#duration').fadeIn(400);
 	showDuration();
 });
+
+// pausebutton
+$('#pause').click(function(){
+    audio.pause();
+	$('#pause').hide();
+	$('#play').show();
+});
