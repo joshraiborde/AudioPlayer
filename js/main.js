@@ -82,6 +82,11 @@ $('#prev').click(function(){
     showDuration();
 });
 
+// volume button
+$('#volume').change(function(){
+    audio.volume = parseFloat(this.value / 10);
+})
+
 
 // time duration
 function showDuration() {
