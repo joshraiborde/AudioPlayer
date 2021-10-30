@@ -32,3 +32,12 @@ function initAudio(element){
     $('#playlist li').removeClass('active');
     element.addClass('active')
 }
+
+// playbutton
+$('#play').click(function(){
+    audio.play();
+	$('#play').hide();
+	$('#pause').show();
+	$('#duration').fadeIn(400);
+	showDuration();
+});
