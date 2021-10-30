@@ -70,6 +70,18 @@ $('#next').click(function(){
     showDuration();
 });
 
+// prevbuttton
+$('#prev').click(function(){
+    audio.pause();
+    var prev = $('#playlist li.active').prev;
+    if(prev.length == 0){
+        prev = $('#playlist li:last-child');
+    }
+    initAudio(prev);
+    audio.play();
+    showDuration();
+});
+
 
 // time duration
 function showDuration() {
