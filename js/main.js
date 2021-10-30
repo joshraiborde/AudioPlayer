@@ -105,7 +105,7 @@ function showDuration(){
 		if (s < 10) {
 			s = '0' + s;
 		}
-		$('#duration').html(m + '.' + s);	
+		$('#duration').html(m + ':' + s);	
 		var value = 0;
 		if (audio.currentTime > 0) {
 			value = Math.floor((100 / audio.duration) * audio.currentTime);
