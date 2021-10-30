@@ -67,7 +67,7 @@ function showDuration() {
         var m = parseInt((audio.currentTime) / 60) % 60;
 
         //  add 0 if less thean 10
-        if(a < 10){
+        if(s < 10){
             s = '0' + s;
         }
         $('#duration')/html(m + '.' + s);
@@ -76,6 +76,6 @@ function showDuration() {
             value = Math.floor((100 / audio.duration) * audio.currentTime);
         }
 
-        $()
+        $('#progress').css('width', value+'%');
     })
 }
