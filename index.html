@@ -9,31 +9,33 @@
 </head>
 <body>
     <div id="container">
-        <div id="audio-img" >
-            <img class="cover" >
+        <div id="audio-image">
+            <img class="cover" />
         </div>
-        <div id="audio-player" >
-            <div id="audio-info" >
-                <span class="artist" ></span> - <span class="title"></span>
+        <div id="audio-player">
+            <div id="audio-info">
+                <span class="artist"></span> - <span class="title"></span>
             </div>
-            <input id="volume" type="range" min="0" max="10" value="5" >
-            <br>
-            <div id="buttons">
+             <input id="volume" type="range" min="0" max="10" value="5" />
+             <br>
+             <div id="buttons">
+             <span>
                 <button id="prev"></button>
                 <button id="play"></button>
                 <button id="pause"></button>
                 <button id="stop"></button>
                 <button id="next"></button>
-            </div>
-            <div class="clear-fix" ></div>
-            <div id="tracker">
-                <div id="progressbar" >
+                </span>
+             </div>
+             <div class="clearfix"></div>
+             <div id="tracker">
+                <div id="progressBar">
                     <span id="progress"></span>
                 </div>
                 <span id="duration"></span>
-            </div>
-            <div class="clear-fix" ></div>
-            <ul id="playlist" >
+             </div>
+             <div class="clearfix"></div>
+             <ul id="playlist" class="hidden">
                 <li song="01 - Prelude" cover="cover1.jpg" artist="The Sound of Music">01 - Prelude</li>
                 <li song="02 - Overture & Preludium" cover="cover1.jpg" artist="The Sound of Music">02 - Overture & Preludium</li>
                 <li song="03 - Morning Hymn & Alleluia" cover="cover1.jpg" artist="The Sound of Music">03 - Morning Hymn & Alleluia</li>
@@ -46,8 +48,10 @@
                 <li song="10 - Do Re Mi" cover="cover1.jpg" artist="The Sound of Music">10 - Do Re Mi</li>
             </ul>
         </div>
+    
     </div>
-    <script src="js/jquery.js" ></script>
-    <script src="js/main.js" ></script>
-</body>
-</html>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    </body>
+    </html>
