@@ -58,6 +58,18 @@ $('#stop').click(function(){
     $('#duration').fadeOut(400);
 });
 
+// nextbuttton
+$('#next').click(function(){
+    audio.pause();
+    var next = $('#playlist li.active').next;
+    if(next.length == 0){
+        next = $('#playlist li:first-child');
+    }
+    initAudio(next);
+    audio.play();
+    showDuration();
+});
+
 
 // time duration
 function showDuration() {
