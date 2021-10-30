@@ -139,6 +139,9 @@ button#next {
     background: url(../images/progress.png) no-repeat;
     height: 10px;
     display: inline-block;
+    position: absolute;
+    top: 9px;
+    left: 8px;
 }
 
 #duration {
